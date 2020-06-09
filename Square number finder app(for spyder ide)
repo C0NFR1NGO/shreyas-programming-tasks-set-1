@@ -1,0 +1,24 @@
+"""
+"""
+print("This program will tell you the square for any umber you input")
+x=float(input(" Please input number: "))
+print("The square of "+ str(x)+ " is "+str(x**2))
+y=input("Do you wish to continue?")
+if y=="Yes" or y=="yes":
+    z=1
+else:
+    print("Thankyou for choosing our app!")
+    z=0
+while z==1:
+    x=float(input(" Please input number: "))
+    print("The square of "+ str(x)+ " is "+str(x**2))
+    y=input("Do you wish to continue?")
+    if y=="Yes" or y=="yes":
+        z=1
+    else:
+        print("Thankyou for choosing our app!")
+        z=0
+    
+              
+    
+    
